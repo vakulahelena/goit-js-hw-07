@@ -31,7 +31,7 @@ const images = [
   }
 ];
 
-const gallery = document.querySelector('.js-list');
+const gallery = document.querySelector('.gallery');
 
 function itemTemplate(image) {
 return `<li><img src="${image.url}" alt="${image.alt}" /></li>`;
